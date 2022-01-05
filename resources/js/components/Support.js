@@ -4,10 +4,10 @@ import { ExternalLinkIcon } from '@heroicons/react/solid';
 
 const support = 
     {
-      headline: 'Award winning support',
+      headline: 'great support',
       intro: 'We’re here to help',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et egestas tempus tellus etiam sed. Quam a scelerisque ame ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.',
-      linkTitle: 'Visit our support page'
+      body: 'We stand by our work and are always available. Chat, email and ticketing systems are available within the client dashboard. Our goal is to make sure that projects are documented and transitioned such that they can operate independently, without the need for us.',
+      linkTitle: 'Visit our support dashboard'
     };
 
 function Support() {

@@ -5,85 +5,62 @@ import {
   CogIcon,
   LockClosedIcon,
   RefreshIcon,
-  ServerIcon,
+  CurrencyDollarIcon,
   ShieldCheckIcon,
 } from '@heroicons/react/outline'
 
 const features = [
   {
-    name: 'Push to Deploy',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.',
+    name: 'Deployment Process',
+    description:
+      'CI/CD process, spin up dev/staging/prod resources on the fly, automate your entire SDLC (Software Development Life Cycle).',
     icon: CloudUploadIcon,
   },
   {
-    name: 'SSL Certificates',
-    description: 'Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.',
+    name: 'E-Commerce / Fintech',
+    description:
+      'Accept various payment types, shopping cart, merchant setup, payment provider integration, PCI-DSS cert and audit, Crypto integration.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple Queues',
-    description: 'Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.',
+    name: 'Data Pipelines',
+    description:
+      'Real-Time data collection and processing, data warehouse/data lakes, telemetry & analytics, business intelligence and reporting.',
     icon: RefreshIcon,
   },
   {
-    name: 'Advanced Security',
-    description: 'Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.',
-    icon: ShieldCheckIcon,
-  },
-  {
-    name: 'Powerful API',
+    name: 'Service Oriented Architecture',
     description:
-      'Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.',
+      'Event Driven Architecture, decoupling of components, improved scalability, dependency inversion, no SPOF.',
     icon: CogIcon,
   },
   {
-    name: 'Database Backups',
-    description: 'Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.',
-    icon: ServerIcon,
+    name: 'Contract/Cost Negotiation',
+    description:
+      'Leverage experience, partners and contacts to reduce your spend. Balance CapEx & OpEx to reduce the stress on your budget.',
+    icon: CurrencyDollarIcon,
   },
-]
+  {
+    name: 'Security',
+    description:
+      'SIEM and NOC setup, Web Application Firewall integration, code audit and static analysis, security training (OWASP Top 10).',
+    icon: ShieldCheckIcon,
+  },
+    ]
 
 function Services() {
     return (
         <div>
-          <div className='relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32'>
-            <div className='mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl'>
-              <div>
-                <h2 className='text-base font-semibold tracking-wider text-cyan-600 uppercase'>
-                  Serverless
-                </h2>
-                <p className='mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl'>
-                  No server? No problem.
-                </p>
-                <p className='mt-5 max-w-prose mx-auto text-xl text-gray-500'>
-                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
-                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-                  condimentum id viverra nulla.
-                </p>
-              </div>
-              <div className='mt-12 -mb-10 sm:-mb-24 lg:-mb-80'>
-                <img
-                  className='rounded-lg shadow-xl ring-1 ring-black ring-opacity-5'
-                  src='https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg'
-                  alt=''
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Feature section with grid */}
           <div className='relative bg-white py-16 sm:py-24 lg:py-32'>
             <div className='mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl'>
               <h2 className='text-base font-semibold tracking-wider text-cyan-600 uppercase'>
-                Deploy faster
+              SERVICES
               </h2>
               <p className='mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl'>
-                Everything you need to deploy your app
+              Everything you need to succeed
               </p>
               <p className='mt-5 max-w-prose mx-auto text-xl text-gray-500'>
-                Phasellus lorem quam molestie id quisque diam aenean nulla in.
-                Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-                condimentum id viverra nulla.
+              To ensure successful and on-time deliveries, we offer the following services and skills.
               </p>
               <div className='mt-12'>
                 <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>

@@ -18,3 +18,6 @@ require('./components/Tekflx');
 require('./components/Testimonial');
 require('./components/Footer');
 require('./components/Support');
+require('./components/Nav');
+require('./components/Resources');
+require('./components/Tech');
