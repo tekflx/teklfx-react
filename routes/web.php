@@ -85,21 +85,21 @@ Route::group(['prefix' => 'company'], function () {
         return view('company.index');
     });
     Route::get('/blog', function () {
-        return view('company');
+        return view('company.index');
     });
     Route::get('/jobs', function () {
-        return view('company');
+        return view('company.index');
     });
     Route::get('/press-releases', function () {
-        return view('company');
+        return view('company.index');
     });
     Route::get('/partners', function () {
-        return view('company');
+        return view('company.index');
     });
 });
 
 Route::group(['prefix' => 'support'], function () {
     Route::get('/', function () {
-        return view('company');
+        return view('company.index');
     });
 });

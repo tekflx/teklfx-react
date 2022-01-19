@@ -7,7 +7,7 @@ import Nav from './Nav';
 import Creator from './Creator';
 import CryptoServices from './CryptoServices';
 
-function Company() {
+function Company(props) {
     return (
         <div className='bg-white'>
             <div className='relative overflow-hidden'>
@@ -89,7 +89,7 @@ function Company() {
                                         width="400"
                                         height="300"
                                         loading="lazy"
-                                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBRWA_mM2H56GQFbJs9dGEKwvIt97-IN3A&q=1250+René-Lévesque+Blvd+W,+Montreal,+QC+H3B+4W8">
+                                        src={"https://www.google.com/maps/embed/v1/place?key="+props.apikey+"&q=1250+René-Lévesque+Blvd+W,+Montreal,+QC+H3B+4W8"}>
                                         </iframe>
                                     </div>
                                 </div>
@@ -105,10 +105,9 @@ function Company() {
 
 export default Company;
 
-const companyElements = document.querySelectorAll('.company')
+if (document.getElementById('company')) {
+    const companyElements = document.getElementById('company');
+    const props = Object.assign({},companyElements.dataset);
 
-if (companyElements.length > 0) {
-    companyElements.forEach(element => {
-        ReactDOM.render(<Company />, element);
-    })
+    ReactDOM.render(<Company apikey={props.apikey} />, companyElements);
 }

@@ -1,5 +1,5 @@
 @extends('layouts.app', ['title' => 'Company'])
 
 @section('content')
-    <div class="company"></div>
+    <div id="company" data-apikey="{{  env('GCP_API_KEY') }}"></div>
 @endsection
