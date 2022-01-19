@@ -21,3 +21,4 @@ require('./components/Support');
 require('./components/Nav');
 require('./components/Resources');
 require('./components/Tech');
+require('./components/DigitalTx');

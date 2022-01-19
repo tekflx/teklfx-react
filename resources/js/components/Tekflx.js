@@ -10,6 +10,7 @@ import Testimonial from './Testimonial';
 import Resources from './Resources';
 import Nav from './Nav';
 import Tech from './Tech';
+import DigitalTx from './DigitalTx';
 
 function Tekflx() {
     return (
@@ -31,9 +32,9 @@ function Tekflx() {
                     <p className='text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl'>
                     From idea to production, leverage Teklfx's expertise to deliver any Engineering project. Our architects design appropriate solutions for projects of any size and can support nearly any tech stack
                     </p>
-                    <div class="mt-10 sm:mt-12">
-                    <div class="inline-flex rounded-md shadow">
-                        <a href="/services" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-500 hover:bg-gray-400">
+                    <div className="mt-10 sm:mt-12">
+                    <div className="inline-flex rounded-md shadow">
+                        <a href="/services" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-500 hover:bg-gray-400">
                           See our Services offerings
                           <ExternalLinkIcon className='-mr-1 ml-3 h-5 w-5 text-white'
                         aria-hidden='true' />
@@ -59,6 +60,7 @@ function Tekflx() {
           <Tech />          
           <Services />
           <Testimonial />
+          <DigitalTx />
           <Resources />
          
 
