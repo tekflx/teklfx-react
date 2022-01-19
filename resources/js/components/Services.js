@@ -11,10 +11,10 @@ import {
 
 const features = [
   {
-    name: 'Deployment Process',
+    name: 'Service Oriented Architecture',
     description:
-      'CI/CD process, spin up dev/staging/prod resources on the fly, automate your entire SDLC (Software Development Life Cycle).',
-    icon: CloudUploadIcon,
+      'Event Driven Architecture, decoupling of components, improved scalability, dependency inversion, no SPOF.',
+    icon: CogIcon,
   },
   {
     name: 'E-Commerce / Fintech',
@@ -29,13 +29,14 @@ const features = [
     icon: RefreshIcon,
   },
   {
-    name: 'Service Oriented Architecture',
+    name: 'Deployment Process',
     description:
-      'Event Driven Architecture, decoupling of components, improved scalability, dependency inversion, no SPOF.',
-    icon: CogIcon,
+      'CI/CD process, spin up dev/staging/prod resources on the fly, automate your entire SDLC (Software Development Life Cycle).',
+    icon: CloudUploadIcon,
   },
+  
   {
-    name: 'Contract/Cost Negotiation',
+    name: 'Contract/Cost Optimization',
     description:
       'Leverage experience, partners and contacts to reduce your spend. Balance CapEx & OpEx to reduce the stress on your budget.',
     icon: CurrencyDollarIcon,
@@ -59,7 +60,7 @@ function Services() {
               <p className='mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl'>
               Everything you need to succeed
               </p>
-              <p className='mt-5 max-w-prose mx-auto text-xl text-gray-500'>
+              <p className='mt-5 max-w-prose mx-auto text-xl text-gray-900'>
               To ensure successful and on-time deliveries, we offer the following services and skills.
               </p>
               <div className='mt-12'>

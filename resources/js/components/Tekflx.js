@@ -11,6 +11,7 @@ import Resources from './Resources';
 import Nav from './Nav';
 import Tech from './Tech';
 import DigitalTx from './DigitalTx';
+import Web3Teaser from './Web3Teaser';
 
 function Tekflx() {
     return (
@@ -57,13 +58,13 @@ function Tekflx() {
             </div>
           </div>
 
-          <Tech />          
+                   
           <Services />
-          <Testimonial />
           <DigitalTx />
+          <Web3Teaser />
+          <Tech />
+          <Testimonial />
           <Resources />
-         
-
           <Support />
         </main>
         <Footer />

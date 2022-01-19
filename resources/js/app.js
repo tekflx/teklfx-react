@@ -22,3 +22,7 @@ require('./components/Nav');
 require('./components/Resources');
 require('./components/Tech');
 require('./components/DigitalTx');
+require('./components/Web3');
+require('./components/Creator');
+require('./components/CryptoServices');
+require('./components/Web3Teaser');

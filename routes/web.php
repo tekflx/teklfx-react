@@ -35,7 +35,7 @@ Route::get('/home', function () {
 
 Route::group(['prefix' => 'services'], function () {
     Route::get('/', function () {
-        return view('services');
+        return view('services.index');
     });
     Route::get('/development', function () {
         return view('services');
@@ -62,7 +62,7 @@ Route::group(['prefix' => 'services'], function () {
 
 Route::group(['prefix' => 'tech'], function () {
     Route::get('/', function () {
-        return view('tech');
+        return view('tech.tech');
     });
     Route::get('/languages', function () {
         return view('tech');
@@ -77,7 +77,7 @@ Route::group(['prefix' => 'tech'], function () {
         return view('tech');
     });
     Route::get('/web3', function () {
-        return view('tech');
+        return view('tech.web3');
     });
 });
 Route::group(['prefix' => 'company'], function () {

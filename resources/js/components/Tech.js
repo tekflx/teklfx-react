@@ -103,7 +103,7 @@ function Tech() {
                 <p className='mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl'>
                 {resource.title}
                 </p>
-                <p className='mt-5 max-w-prose mx-auto text-xl text-gray-500'>
+                <p className='mt-5 max-w-prose mx-auto text-xl text-gray-900'>
                 {resource.body}
                 </p>
               </div>
