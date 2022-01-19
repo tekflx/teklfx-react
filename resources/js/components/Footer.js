@@ -18,7 +18,7 @@ const footerNavigation = {
       { name: 'Web 3.0', href: '/tech/web3' },
     ],
     company: [
-      { name: 'About', href: '/company/about' },
+      { name: 'About', href: '/company' },
       { name: 'Blog', href: '/blog' },
       { name: 'Jobs', href: '/jobs' },
       { name: 'Press', href: '/press-releases' },

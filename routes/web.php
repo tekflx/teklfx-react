@@ -82,10 +82,7 @@ Route::group(['prefix' => 'tech'], function () {
 });
 Route::group(['prefix' => 'company'], function () {
     Route::get('/', function () {
-        return view('company');
-    });
-    Route::get('/about', function () {
-        return view('company');
+        return view('company.index');
     });
     Route::get('/blog', function () {
         return view('company');
